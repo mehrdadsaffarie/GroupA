@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Welcome!</title>
+    <title>بنیاد شهید و امور ایثارگران - خوش آمدید</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">	
     <!--<meta name="author" content="Simpson Moyo - Webapplicationthemes.com">-->
@@ -44,6 +44,12 @@
 </head>
 
 <body>
+<style>
+    body{
+        direction: rtl;
+        text-align:right;
+    }
+</style>
 <section id="header">
 <!-- Include the header bar -->
     <?php include_once('header.php');?>
@@ -65,19 +71,14 @@
 
       
         <div class="nav-collapse">
-            <style>
-                body{
-                    direction : rtl;
-                    text-align:right;
-                }
-            </style>
+
 			<?php $this->widget('zii.widgets.CMenu',array(
                     'htmlOptions'=>array('class'=>'nav'),
                     'submenuHtmlOptions'=>array('class'=>'dropdown-menu'),
 					'itemCssClass'=>'item-test',
                     'encodeLabel'=>false,
                     'items'=>array(
-						array('label'=>'خانه <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"our home page"),
+						array('label'=>'خانه <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"صفحه اصلی"),
                         'items'=>array(
                             array('label'=>'Home 1 ', 'url'=>array('/site/index')),
 							array('label'=>'Home 2 ', 'url'=>array('/site/page', 'view'=>'home2')),
@@ -135,11 +136,12 @@
 <?php echo $content; ?>
 
 <!-- Require the footer -->
-<!-- tpl_footer.php -->    
-<section id="bottom" class="">
-    <div class="container bottom"> 
+<!-- tpl_footer.php -->
+
+<section id="bottom" class="" style="direction: rtl">
+    <div class="container bottom" style="direction: rtl">
     	<div class="row-fluid ">
-            <div class="span3">
+            <div class="span3" style="direction: rtl">
             	<h5>About us</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 
@@ -225,7 +227,7 @@
 <footer>
     <div class="footer">
         <div class="container">
-        	Copyright &copy; 2012. Designed by webapplicationthemes.com - High quality HTML Theme
+            تمامی حقوق این سایت محفوظ و متعلق به بنیاد شهید و امور ایثارگران می باشد.
         </div>
 	</div>
 </footer>
