@@ -1,0 +1,23 @@
+body {margin: 0; padding: 0}
+#hss_w {background:url(hss4.png); width:168px; height:90px; position:relative; overflow:hidden; font-family:Verdana, Arial;}
+#hss_w .fl {background:url(hss4.png) left -107px; width:34px; height:9px; position:absolute;left:0px; top:37px; z-index:6;}
+#hss_w .i {width:11px; height:11px; position:absolute; right:3px; top:3px;}
+#hss_w .a_m {width:168px; height:18px; background:url(hss4.png) left -89px; position:absolute; bottom:0px; left:0px; cursor:pointer;}
+#hss_m {background:url(hss4.png) left -37px; width:168px; height:52px; position:absolute; left:0px; top:37px; z-index:3;}
+#diagram {width:167px; height:34px; background:#e0e0e0 url(bg_l.png); position:absolute;top:38px; left:0px; margin:0; padding:0; overflow:hidden; position:relative;}
+#diagram ul{width:167px; height:34px; overflow: hidden; margin: 0; padding: 0; position: absolute; bottom: 0px; left:0px;}
+#diagram li {margin: 0 1px 0 0; padding:0; list-style: none; width: 7px; height: 0px; border-top: solid 1px #226194; float: left; background: #66cc66; position: absolute; bottom: 0px;}
+#diagram li.mal {background: #ff6666; border-top: solid 2px #C00;}
+.box_speed {position: absolute; top: 0px; left: 3px; font-size: 9px;}
+.box_speed .bg {background: #e0e0e0; opacity:0.7; position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+.box_speed .title {position: relative; padding: 0 3px; line-height: 12px;}
+.speed {font-size: 8px; display: block; position: absolute; top: 24px; left:45px; color: #c0d6e8;}
+#data {width:167px; height:15px; position: absolute; left: 2px; top: 74px; z-index: 3; overflow: hidden; font-size: 10px; color: #ff0000; display: none; background: #e0e0e0; text-decoration: none;}
+#data:hover {text-decoration: underline;}
+#data span {background:url(hss4.png) -152px -108px; width: 13px; height: 14px; display: inline-block; float: left;}
+#data b {display: inline-block; padding: 0 0 5px 3px;}
+#malware_action {position: absolute; z-index: 100; left: 0px; top: 0px}
+#malware_action img {padding: 3px 0 0 7px;}
+#malware_action p {background: #F00; color: #FFF; text-align: center; font-size: 12px; line-height:110%; margin: 0; padding: 4px 0 0; position: absolute; top: 38px; width: 167px; height: 30px; opacity: 0.8}
+#disconnectAlert {color: #f00; text-align: center; position: absolute; width: 100%; left: 0px; top: 2px; font-size: 11px; display: none;}
+#disconnectAlert span {background: #FFF; padding: 1px 5px; display: inline-block;}
