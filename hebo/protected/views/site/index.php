@@ -1,14 +1,8 @@
-    <?php
+
+<?php
 		$baseUrl = Yii::app()->request->baseUrl;
 	?>
-            <div class="body" ><a href="http://www.leader.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/leader.jpg" align="left"   width="200" class="link" border="0" alt="پايگاه اطلاع رساني دفتر مقام معظم رهبري" title="پايگاه اطلاع رساني دفتر مقام معظم رهبري"></a>
-            <div class="body" ><a href="http://www.leader.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/leader.jpg"   width="200" class="link" border="0" alt="پايگاه اطلاع رساني دفتر مقام معظم رهبري" title="پايگاه اطلاع رساني دفتر مقام معظم رهبري"></a>
-            <div class="body" ><a href="http://www.dolat.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/dolat.jpg" align="left"  width="200" class="link" border="0"alt="پایگاه اطلاع رسانی دولت" title="پایگاه اطلاع رسانی دولت"></a></div>
-            <div class="body" ><a href="http://www.dolat.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/dolat.jpg"   width="200" class="link" border="0"alt="پایگاه اطلاع رسانی دولت" title="پایگاه اطلاع رسانی دولت"></a></div>
-            <div class="body" ><a href="http://www.president.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/president.jpg" align="left"  width="200" class="link" border="0"alt="پایگاه اطلاع رسانی ریاست جمهوری" title="پایگاه اطلاع رسانی ریاست جمهوری"></a></div>
-            <div class="body" ><a href="http://www.president.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/president.jpg"   width="200" class="link" border="0"alt="پایگاه اطلاع رسانی ریاست جمهوری" title="پایگاه اطلاع رسانی ریاست جمهوری"></a></div>
-            <div class="body" ><a href="http://www.isaar.ir/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/isar1.jpg" align="left"   width="200" class="link" border="0"alt="پبنیاد شهید و امور ایثارگران" title="بنیاد شهید و امور ایثار گران"></a></div>
-            <div class="body" ><a href="http://www.isaar.ir/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/isar1.jpg"   width="200" class="link" border="0"alt="پبنیاد شهید و امور ایثارگران" title="بنیاد شهید و امور ایثار گران"></a></div>
+
 
 	<div class="slider-bootstrap"><!-- start slider -->
     	<div class="slider-wrapper theme-default">

@@ -6261,3 +6261,883 @@ Stack trace:
 REQUEST_URI=/hebo/index.php/site/img/close.png
 HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
 ---
+2014/12/02 10:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 10:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 10:32:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 10:32:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 10:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 10:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 10:38:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 10:38:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 10:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 10:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 10:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 10:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 10:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 10:59:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:03:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:09:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:09:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:10:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:11:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:11:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:11:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:12:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 11:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 11:55:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 11:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:55:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:57:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:58:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 11:58:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:08:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:28:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:28:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:28:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 12:28:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 12:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:28:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/login
+---
+2014/12/02 12:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/login
+---
+2014/12/02 12:28:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/02 12:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 12:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/02 12:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=columns
+---
+2014/12/02 12:28:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=columns
+---
+2014/12/02 12:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 12:28:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 12:28:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 12:28:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 12:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/login
+---
+2014/12/02 12:29:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/login
+---
+2014/12/02 12:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:29:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/02 12:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/02 12:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "img".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
