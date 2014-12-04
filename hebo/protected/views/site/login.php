@@ -9,9 +9,9 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<h1>ورود</h1>
 
-<p>Please fill out the following form with your login credentials:</p>
+<p>لطفا اطلاعات ورود خود را کامل کنید.</p>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -22,21 +22,21 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">قسمت های<span class="required">*</span>دار ضروری هستند.</p>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'username'); ?>
+		<?php echo $form->labelEx($model,'نام کاربری'); ?>
 		<?php echo $form->textField($model,'username'); ?>
 		<?php echo $form->error($model,'username'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'password'); ?>
+		<?php echo $form->labelEx($model,'رمز عبور'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
-		<p class="hint">
-			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
-		</p>
+        <p>
+        admin admin
+        </p>
 	</div>
     <?php echo $form->textField($model,'verifyCode'); ?>
     <?php $this->widget('CCaptcha'); ?>
@@ -44,12 +44,12 @@ $this->breadcrumbs=array(
 
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
-		<?php echo $form->label($model,'rememberMe'); ?>
+		<?php echo $form->label($model,'مرا به خاطر بسپار.'); ?>
 		<?php echo $form->error($model,'rememberMe'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+		<?php echo CHtml::submitButton('ورود'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

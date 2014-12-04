@@ -120,8 +120,8 @@
                         )),
                         array('label'=>'ارتباط با ما', 'url'=>array('/site/page', 'view'=>'contact'),'linkOptions'=>array("data-description"=>"get hold of us"),),
                         array('label'=>'ثبت نام', 'url'=>array('/site/page', 'view'=>'register'),'linkOptions'=>array("data-description"=>"راحت و سریع"),),
-                        array('label'=>'ورود', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"member area")),
-                        array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"member area")),
+                        array('label'=>'ورود', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"مخصوص اعضا")),
+                        array('label'=>'خروج ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"خارج شدن اعضا")),
                     ),
                 )); 
 			?>
