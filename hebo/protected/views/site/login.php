@@ -38,6 +38,9 @@ $this->breadcrumbs=array(
 			Hint: You may login with <kbd>demo</kbd>/<kbd>demo</kbd> or <kbd>admin</kbd>/<kbd>admin</kbd>.
 		</p>
 	</div>
+    <?php echo $form->textField($model,'verifyCode'); ?>
+    <?php $this->widget('CCaptcha'); ?>
+    <?php echo $form->error($model,'verifyCode'); ?>
 
 	<div class="row rememberMe">
 		<?php echo $form->checkBox($model,'rememberMe'); ?>
