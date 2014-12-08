@@ -7,8 +7,9 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Test',
-	'timezone' => 'Asia/Tehran', 
+	'name'=>'immortal',
+	'timezone' => 'Asia/Tehran',
+	'language'=>'fa_ir',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -17,7 +18,7 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
+	/*
 	'modules'=>array(
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
@@ -26,7 +27,7 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 	),
-
+	*/
 	// application components
 	'components'=>array(
 		'user'=>array(
@@ -49,7 +50,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=hebo',
+			'connectionString' => 'mysql:host=localhost;dbname=immortal',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
