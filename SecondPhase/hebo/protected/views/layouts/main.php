@@ -1,7 +1,8 @@
 <!-- Require the header -->
 <!-- tpl_header.php -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>بنیاد شهید و امور ایثارگران - خوش آمدید</title>
@@ -138,14 +139,15 @@
         <?php echo $content; ?>
     </div>
         <div class="span2">
-            <div  ><a href="http://www.leader.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/leader.jpg"    class="link" border="0" alt="پايگاه اطلاع رساني دفتر مقام معظم رهبري" title="پايگاه اطلاع رساني دفتر مقام معظم رهبري"></a></div><br>
-            <div  ><a href="http://www.dolat.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/dolat.jpg"  class="link" border="0" alt="پایگاه اطلاع رسانی دولت" title="پایگاه اطلاع رسانی دولت"></a></div><br>
-            <div  ><a href="http://www.president.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/president.jpg"   class="link" border="0" alt="پایگاه اطلاع رسانی ریاست جمهوری" title="پایگاه اطلاع رسانی ریاست جمهوری"></a></div><br>
-            <div  ><a href="http://www.isaar.ir/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/isar1.JPG"  class="link" border="0" alt="پبنیاد شهید و امور ایثارگران" title="بنیاد شهید و امور ایثار گران"></a></div><br>
-            <div  ><a href="http://www.navideshahed.com/fa/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/shahed.jpg"  class="link" border="0" alt = "پایگاه اطلاع رسانی فرهنگ ایثار و شهادت"title="پایگاه اطلاع رسانی فرهنگ ایثار و شهادت"</a></div><br>
-            <div  ><a href="http://www.navideisar.ir/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/navid.JPG"  class="link" border="0" alt = "نوید ایثار"title="نوید ایثار"</a></div><br>
-            <div  ><a href="http://www.chemical-victims.com" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/selah.jpg"  class="link" border="0" alt = "قربانیان سلاح های شیمیایی"title="قربانیان سلاح های شیمیایی"</a></div><br>
-            <div  ><a href="http://www.teror-victims.com/fa" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/teror.jpg"  class="link" border="0" alt = "قربانیان ترور"title="قربانیان ترور"</a></div><br>
+            <div  ><a href="http://www.leader.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/leader.jpg"    class="link" border="0" alt="پايگاه اطلاع رساني دفتر مقام معظم رهبري" title="پايگاه اطلاع رساني دفتر مقام معظم رهبري"></a>            </div>
+            <div  ><a href="http://www.dolat.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/dolat.jpg"  class="link" border="0" alt="پایگاه اطلاع رسانی دولت" title="پایگاه اطلاع رسانی دولت"></a></div>
+            <div  ><a href="http://www.president.ir" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/president.jpg"   class="link" border="0" alt="پایگاه اطلاع رسانی ریاست جمهوری" title="پایگاه اطلاع رسانی ریاست جمهوری"></a></div>
+            <div  ><a href="http://www.isaar.ir/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/isar1.jpg"  class="link" border="0" alt="پبنیاد شهید و امور ایثارگران" title="بنیاد شهید و امور ایثار گران"></a></div>
+            <div  ><a href="http://www.navideshahed.com/fa/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/shahed.jpg"  class="link" border="0" alt = "پایگاه اطلاع رسانی فرهنگ ایثار و شهادت"title="پایگاه اطلاع رسانی فرهنگ ایثار و شهادت"</a></div>
+            <div  ><a href="http://www.navideisar.ir/" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/navid.jpg"  class="link" border="0" alt = "نوید ایثار"title="نوید ایثار"</a></div>
+            <div  ><a href="http://www.chemical-victims.com" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/selah.jpg"  class="link" border="0" alt = "قربانیان سلاح های شیمیایی"title="قربانیان سلاح های شیمیایی"</a></div>
+            <div  ><a href="http://www.teror-victims.com/fa" target="_blank"><img src="<?php echo $baseUrl;?>/img/Kenar/teror.jpg"  class="link" border="0" alt = "قربانیان ترور"title="قربانیان ترور"</a></div>
+            <div><a href=""></a></div>
 
         </div>
 
@@ -165,83 +167,32 @@
     <div class="container bottom" style="direction: rtl">
     	<div class="row-fluid ">
             <div class="span3" style="direction: rtl">
-            	<h5>About us</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                
+
+            </div><!-- /span3-->
+
+            <div class="span3">
+
+
             </div><!-- /span3-->
             
             <div class="span3">
-            	<h5>Blog roll</h5>
-            	<ul class="list-blog-roll">
-                    <li>
-                    	<a href="#" title="Example blog article">Understanding CSS</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">40 Free icons</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Search engine optimisation</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Intermarket guide pt. 1</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Intermarket guide pt. 2</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">Intermarket guide pt. 3</a>	
-                    </li>
-                    <li>
-                    	<a href="#" title="Example blog article">CSS3 IE hacks</a>	
-                    </li>
-                </ul>
-            	
+
             </div><!-- /span3-->
-            
+
+
             <div class="span3">
-            	<h5>Twitter feed</h5>
-            	<p>
-                    Cool CSS tutorial
-                    <br/>
-                    <a href="#">http://t.co/Xdert</a>
-                    <br/>
-                    <span>about 1 hour ago</span>
+            	<h5>اعضای گروه به ترتیب الفبا</h5>
+
+                سید محمد حسین حسینی<a href="mailto:mhoseinhoseini@gmail.com" target="_top">Send Mail</a>
                 </p>
-                <p>
-                    Everything to know about HTML5
-                    <br/>
-                    <a href="#">http://t.co/Xdert</a>
-                    <br/>
-                    <span>about 7 hours ago</span>
+                علی شفیعی<a href="mailto:m.ali.shafiee@gmail.com" target="_top">Send Mail</a>
                 </p>
-                <p>
-                    Learn PHP in 3 days
-                    <br/>
-                    <a href="#">http://t.co/Xdert</a>
-                    <br/>
-                    <span>about 9 hours ago</span>
+                مهرداد صفاریه<a href="mailto:mehrdads.1371@gmail.com" target="_top">Send Mail</a>
                 </p>
-            </div><!-- /span3-->
-            
-            <div class="span3">
-            	<h5>Contact us</h5>
-                <p>
-                    795 Folsom Ave, Suite 600<br/>
-                    Address<br/>
-                    P: (123) 456-7890<br/>
-                    E: mail@mail.com<br/>
-                
+                جواد فروق<a href="mailto:javadforough@gmail.com" target="_top">Send Mail</a>
                 </p>
-                <br>
-                <h5>Follow us</h5>
-                <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Themeforest</a></li>
-                
-                </ul>
+                محمد میرموسوی<a href="mailto:mohammadmirmoosavi@gmail.com" target="_top">Send Mail</a>
+                </p>
             </div><!-- /span3-->
         </div><!-- /row-fluid -->
         </div><!-- /container-->

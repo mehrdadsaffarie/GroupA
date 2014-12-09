@@ -106,4 +106,43 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+	
+	public function actionCommentsPage()
+	{
+			$model=new Comments;
+			if(isset($_POST['Comments']))
+			{
+				$model->attributes=$_POST['Comments'];
+				if($model->validate())
+				{
+					$Topic=($model->Topic);
+					$Date=($model->Date);
+					$Description =($model->Description);
+					$writer_email=($model->writer_email);
+					
+					$connection=Yii::app()->db;
+					$connection->active=TRUE;
+					
+						$sql="INSERT INTO comments (Topic,Date,Description, writer_email) VALUES(:Topic,:Date, :Description, :writer_email)";
+						$command=$connection->createCommand($sql);
+						
+						$command->bindParam(":Topic",$Topic,PDO::PARAM_STR);
+						$command->bindParam(":Date",$Date,PDO::PARAM_STR);
+						$command->bindParam(":Description",$Description,PDO::PARAM_STR);
+						$command->bindParam(":writer_email",$writer_email,PDO::PARAM_STR);
+					
+						$command->execute();
+
+						Yii::app()->user->setFlash('commentsPage','ÇØáÇÚÇÊ ËÈÊ ÔÏ');	
+					$connection->active=false;
+					$Topic = ":Topic";
+					$Date= ":Date";
+					$Description = ":Description";
+					$writer_email = ":writer_email";
+
+					$this->refresh();
+				}
+			}
+			$this->render('commentsPage',array('model'=>$model));		
+	}
 }
