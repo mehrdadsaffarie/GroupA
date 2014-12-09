@@ -1,0 +1,100 @@
+.jq-slider,
+.jq-slider-mask{
+    overflow: hidden;
+    position: relative;
+	z-index: 0;
+        
+}
+.jq-slider-mask{
+	
+        font-size: 1.1em;
+        line-height: 1.88em;
+}
+.jq-slider-content{
+    left: 0;
+    position: absolute;
+}
+.jq-slider-list{
+    float: left;
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.jq-slider-item{
+    float: left;
+}
+.jq-slider-prev,
+.jq-slider-next{
+	background-color: #777777;
+	color: #FFFFFF;
+	padding:5px;
+	position: absolute;
+        cursor: pointer;
+	z-index: 1;
+	display: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+.jq-slider-prev{
+	left: 0;
+}
+.jq-slider-next{
+	right: 0;
+}
+.jq-slider-prev span,
+.jq-slider-next span{
+	display: block;
+	background-repeat: no-repeat;
+  
+}
+.jq-slider-prev span{
+	background-position: 0px 50%;
+}
+.jq-slider-next span{
+	background-position: -25px 50%;
+}
+.jq-slider-pages{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	position: absolute;
+	margin-top: 10px;
+        display: none;
+}
+.jq-slider-pages li{
+	width: 10px;
+	height: 10px;
+	margin: 2px;
+	float: left;
+	text-indent: -1000px;
+	cursor: pointer;
+	border: 1px solid #B8C4CF;
+    background-color: #CCCCCC;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F3F3F3), to(#CCCCCC));
+	background: -webkit-linear-gradient(center top, #CCCCCC, #F3F3F3);
+	background: -moz-linear-gradient(center top, #CCCCCC, #F3F3F3);
+	background: -ms-linear-gradient(center top, #CCCCCC, #F3F3F3);
+	background: -o-linear-gradient(center top, #CCCCCC, #F3F3F3);
+    border-radius: 10px 10px 10px 10px;
+}
+.jq-slider-pages li.jq-slider-current-page{
+    border: 1px solid #3072B3;
+    background-color: #599BDC;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3072B3), to(#599BDC));
+	background: -webkit-linear-gradient(center top, #599BDC, #3072B3);
+	background: -moz-linear-gradient(center top, #599BDC, #3072B3);
+	background: -ms-linear-gradient(center top, #599BDC, #3072B3);
+	background: -o-linear-gradient(center top, #599BDC, #3072B3);
+    text-indent: -1000px;
+    box-shadow: 0 0 3px #518CC6;
+}
+.jq-slider-mask p{
+    padding: 0px 10px;
+    
+}
+.jq-slider-item a{
+    float: left;
+}
