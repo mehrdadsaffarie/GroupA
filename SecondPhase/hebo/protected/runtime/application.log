@@ -8945,3 +8945,1057 @@ Stack trace:
 REQUEST_URI=/hebo/index.php/site/img/loading.gif
 HTTP_REFERER=http://localhost/hebo/index.php/site/login
 ---
+2014/12/16 11:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home2
+---
+2014/12/16 11:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home2
+---
+2014/12/16 11:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 11:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:05:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:06:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/16 12:06:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/16 12:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:06:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:06:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:06:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:13:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'نمای ShohadaPage پیدا نشد.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('ShohadaPage')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/hebo/index.php/site/page?view=ShohadaPage
+---
+2014/12/16 12:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'نمای shohadaPage پیدا نشد.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('shohadaPage')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/hebo/index.php/site/page?view=shohadaPage
+---
+2014/12/16 12:14:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'نمای shohadapage پیدا نشد.' in C:\wamp\www\yii\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('shohadapage')
+#1 C:\wamp\www\yii\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/hebo/index.php/site/page?view=shohadapage
+---
+2014/12/16 12:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:19:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:19:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:19:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/16 12:19:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/16 12:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:20:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:21:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:21:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:28:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/16 12:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=contact
+---
+2014/12/16 12:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 12:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/login
+---
+2014/12/16 12:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/login
+---
+2014/12/16 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "css" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('css')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('css')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/css/bootst...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/css/bootstrap-responsive.css
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=about
+---
+2014/12/16 12:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home2
+---
+2014/12/16 12:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home2
+---
+2014/12/16 12:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:32:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:33:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home2
+---
+2014/12/16 12:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home2
+---
+2014/12/16 12:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home4
+---
+2014/12/16 12:33:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=home4
+---
+2014/12/16 12:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 12:33:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/index
+---
+2014/12/16 13:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 13:09:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 13:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 13:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=register
+---
+2014/12/16 13:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=portfolio-4-cols
+---
+2014/12/16 13:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=portfolio-4-cols
+---
