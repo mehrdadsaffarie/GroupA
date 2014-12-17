@@ -41,7 +41,7 @@
     <script type="text/javascript" src="<?php echo $baseUrl;?>/js/styleswitcher.js"></script>
     
     <!-- The fav icon -->
-    <link rel="shortcut icon" href="<?php echo $baseUrl;?>/img/ico/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo $baseUrl;?>/img/ico/iran.ico">
 </head>
 
 <body>
@@ -82,7 +82,7 @@
 						array('label'=>'خانه <span class="caret"></span>', 'url'=>array('/site/index'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"صفحه اصلی"),
                         'items'=>array(
                             array('label'=>'Home 1 ', 'url'=>array('/site/index')),
-							array('label'=>'Home 2 ', 'url'=>array('/site/page', 'view'=>'home2')),
+							array('label'=>'با شهدا', 'url'=>array('/site/page', 'view'=>'bashohada.bashohada')),
 							array('label'=>'Home 3 ', 'url'=>array('/site/page', 'view'=>'home3')),
 							array('label'=>'Home 4 ', 'url'=>array('/site/page', 'view'=>'home4')),
 							array('label'=>'Home 5 ', 'url'=>array('/site/page', 'view'=>'home5')),
