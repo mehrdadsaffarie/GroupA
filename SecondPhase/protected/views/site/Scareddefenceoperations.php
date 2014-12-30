@@ -1,14 +1,3 @@
-<?php
-/* @var $this SiteController */
-/* @var $model LoginForm */
-/* @var $form CActiveForm  */
-
-$this->pageTitle=Yii::app()->name . ' - Scareddefenceoperations';
-$this->breadcrumbs=array(
-        'Scared',
-);
-?>
-
 <!DOCTYPE html>
 <html dir=rtl lang="fa">
 <head>
