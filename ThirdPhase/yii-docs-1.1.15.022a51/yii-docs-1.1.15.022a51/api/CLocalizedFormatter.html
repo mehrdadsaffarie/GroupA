@@ -1,0 +1,762 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="en" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/api.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<title>CLocalizedFormatter</title>
+</head>
+
+<body>
+<div id="apiPage">
+
+<div id="apiHeader">
+<a href="http://www.yiiframework.com">Yii Framework</a> v1.1.15 Class Reference
+</div><!-- end of header -->
+
+<div id="content">
+<h1>CLocalizedFormatter</h1>
+<div id="nav">
+<a href="index.html">All Packages</a>
+| <a href="#properties">Properties</a>
+| <a href="#methods">Methods</a>
+</div>
+
+<table class="summaryTable docClass">
+<colgroup>
+	<col class="col-name" />
+	<col class="col-value" />
+</colgroup>
+<tr>
+  <th>Package</th>
+  <td><a href="index.html#system.utils">system.utils</a></td>
+</tr>
+<tr>
+  <th>Inheritance</th>
+  <td>class CLocalizedFormatter &raquo;
+<a href="CFormatter.html">CFormatter</a> &raquo;
+<a href="CApplicationComponent.html">CApplicationComponent</a> &raquo;
+<a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr>
+  <th>Implements</th>
+  <td><a href="IApplicationComponent.html">IApplicationComponent</a></td>
+</tr>
+<tr>
+  <th>Since</th>
+  <td>1.1.14</td>
+</tr>
+<tr>
+  <th>Source Code</th>
+  <td><a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php">framework/utils/CLocalizedFormatter.php</a></td>
+</tr>
+</table>
+
+<div id="classDescription">
+CLocalizedFormatter provides a set of commonly used data formatting methods based on the current locale settings.
+<br/><br/>
+It provides the same functionality as <a href="CFormatter.html">CFormatter</a>, but overrides all the settings for
+<a href="CLocalizedFormatter.html#booleanFormat">booleanFormat</a>, <a href="CLocalizedFormatter.html#datetimeFormat">datetimeFormat</a> and <a href="CLocalizedFormatter.html#numberFormat">numberFormat</a> with the values for the
+current locale. Because of this you are not able to configure these properties for CLocalizedFormatter directly.
+Date and time format can be adjsuted by setting <a href="CLocalizedFormatter.html#dateFormat">dateFormat</a> and <a href="CLocalizedFormatter.html#timeFormat">timeFormat</a>.
+<br/><br/>
+It uses <a href="CApplication.html#locale">CApplication::locale</a> by default but you can set a custom locale by using <a href="CLocalizedFormatter.html#setLocale">setLocale</a>-method.
+<br/><br/>
+For a list of recognizable format types, and details on how to call the formatter methods,
+see <a href="CFormatter.html">CFormatter</a> documentation.
+<br/><br/>
+To replace the application component 'format', which is registered by <a href="CApplication.html">CApplication</a> by default, you can
+put this in your application 'components' config:
+<code>
+'format' => array(
+    'class' => 'CLocalizedFormatter',
+),
+</code></div>
+<a name="properties"></a>
+
+<div class="summary docProperty">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-property" />
+	<col class="col-type" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="behaviors">
+  <td><a href="CApplicationComponent.html#behaviors-detail">behaviors</a></td>
+  <td>array</td>
+  <td>the behaviors that should be attached to this component.</td>
+  <td><a href="CApplicationComponent.html">CApplicationComponent</a></td>
+</tr>
+<tr class="inherited" id="booleanFormat">
+  <td><a href="CFormatter.html#booleanFormat-detail">booleanFormat</a></td>
+  <td>array</td>
+  <td>the text to be displayed when formatting a boolean value.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr id="dateFormat">
+  <td><a href="CLocalizedFormatter.html#dateFormat-detail">dateFormat</a></td>
+  <td>string</td>
+  <td>the width of the date pattern.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr class="inherited" id="datetimeFormat">
+  <td><a href="CFormatter.html#datetimeFormat-detail">datetimeFormat</a></td>
+  <td>string</td>
+  <td>the format string to be used to format a date and time using PHP date() function.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="htmlPurifier">
+  <td><a href="CFormatter.html#htmlPurifier-detail">htmlPurifier</a></td>
+  <td><a href="CHtmlPurifier.html">CHtmlPurifier</a></td>
+  <td>the HTML purifier instance</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="htmlPurifierOptions">
+  <td><a href="CFormatter.html#htmlPurifierOptions-detail">htmlPurifierOptions</a></td>
+  <td>array</td>
+  <td>the options to be passed to CHtmlPurifier instance used in this class.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="isInitialized">
+  <td><a href="CApplicationComponent.html#isInitialized-detail">isInitialized</a></td>
+  <td>boolean</td>
+  <td>Checks if this application component has been initialized.</td>
+  <td><a href="CApplicationComponent.html">CApplicationComponent</a></td>
+</tr>
+<tr id="locale">
+  <td><a href="CLocalizedFormatter.html#locale-detail">locale</a></td>
+  <td><a href="CLocale.html">CLocale</a></td>
+  <td>$locale the locale currently used for formatting values</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr class="inherited" id="numberFormat">
+  <td><a href="CFormatter.html#numberFormat-detail">numberFormat</a></td>
+  <td>array</td>
+  <td>the format used to format a number with PHP number_format() function.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="sizeFormat">
+  <td><a href="CFormatter.html#sizeFormat-detail">sizeFormat</a></td>
+  <td>array</td>
+  <td>the format used to format size (bytes).</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr id="timeFormat">
+  <td><a href="CLocalizedFormatter.html#timeFormat-detail">timeFormat</a></td>
+  <td>string</td>
+  <td>the width of the time pattern.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+</table>
+</div>
+<a name="methods"></a>
+
+<div class="summary docMethod">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="__call">
+  <td><a href="CFormatter.html#__call-detail">__call()</a></td>
+  <td>Calls the format method when its shortcut is invoked.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="__get">
+  <td><a href="CComponent.html#__get-detail">__get()</a></td>
+  <td>Returns a property value, an event handler list or a behavior based on its name.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__isset">
+  <td><a href="CComponent.html#__isset-detail">__isset()</a></td>
+  <td>Checks if a property value is null.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__set">
+  <td><a href="CComponent.html#__set-detail">__set()</a></td>
+  <td>Sets value of a component property.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__unset">
+  <td><a href="CComponent.html#__unset-detail">__unset()</a></td>
+  <td>Sets a component property to be null.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="asa">
+  <td><a href="CComponent.html#asa-detail">asa()</a></td>
+  <td>Returns the named behavior object.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehavior">
+  <td><a href="CComponent.html#attachBehavior-detail">attachBehavior()</a></td>
+  <td>Attaches a behavior to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehaviors">
+  <td><a href="CComponent.html#attachBehaviors-detail">attachBehaviors()</a></td>
+  <td>Attaches a list of behaviors to the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachEventHandler">
+  <td><a href="CComponent.html#attachEventHandler-detail">attachEventHandler()</a></td>
+  <td>Attaches an event handler to an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="canGetProperty">
+  <td><a href="CComponent.html#canGetProperty-detail">canGetProperty()</a></td>
+  <td>Determines whether a property can be read.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="canSetProperty">
+  <td><a href="CComponent.html#canSetProperty-detail">canSetProperty()</a></td>
+  <td>Determines whether a property can be set.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachBehavior">
+  <td><a href="CComponent.html#detachBehavior-detail">detachBehavior()</a></td>
+  <td>Detaches a behavior from the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachBehaviors">
+  <td><a href="CComponent.html#detachBehaviors-detail">detachBehaviors()</a></td>
+  <td>Detaches all behaviors from the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachEventHandler">
+  <td><a href="CComponent.html#detachEventHandler-detail">detachEventHandler()</a></td>
+  <td>Detaches an existing event handler.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehavior">
+  <td><a href="CComponent.html#disableBehavior-detail">disableBehavior()</a></td>
+  <td>Disables an attached behavior.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehaviors">
+  <td><a href="CComponent.html#disableBehaviors-detail">disableBehaviors()</a></td>
+  <td>Disables all behaviors attached to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehavior">
+  <td><a href="CComponent.html#enableBehavior-detail">enableBehavior()</a></td>
+  <td>Enables an attached behavior.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehaviors">
+  <td><a href="CComponent.html#enableBehaviors-detail">enableBehaviors()</a></td>
+  <td>Enables all behaviors attached to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="evaluateExpression">
+  <td><a href="CComponent.html#evaluateExpression-detail">evaluateExpression()</a></td>
+  <td>Evaluates a PHP expression or callback under the context of this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="format">
+  <td><a href="CFormatter.html#format-detail">format()</a></td>
+  <td>Formats a value based on the given type.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr id="formatBoolean">
+  <td><a href="CLocalizedFormatter.html#formatBoolean-detail">formatBoolean()</a></td>
+  <td>Formats the value as a boolean.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr id="formatDate">
+  <td><a href="CLocalizedFormatter.html#formatDate-detail">formatDate()</a></td>
+  <td>Formats the value as a date using the <a href="CLocalizedFormatter.html#locale">locale</a>s date formatter.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr id="formatDatetime">
+  <td><a href="CLocalizedFormatter.html#formatDatetime-detail">formatDatetime()</a></td>
+  <td>Formats the value as a date and time using the <a href="CLocalizedFormatter.html#locale">locale</a>s date formatter.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr class="inherited" id="formatEmail">
+  <td><a href="CFormatter.html#formatEmail-detail">formatEmail()</a></td>
+  <td>Formats the value as a mailto link.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="formatHtml">
+  <td><a href="CFormatter.html#formatHtml-detail">formatHtml()</a></td>
+  <td>Formats the value as HTML text without any encoding.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="formatImage">
+  <td><a href="CFormatter.html#formatImage-detail">formatImage()</a></td>
+  <td>Formats the value as an image tag.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="formatNtext">
+  <td><a href="CFormatter.html#formatNtext-detail">formatNtext()</a></td>
+  <td>Formats the value as a HTML-encoded plain text and converts newlines with HTML &lt;br /&gt; or</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr id="formatNumber">
+  <td><a href="CLocalizedFormatter.html#formatNumber-detail">formatNumber()</a></td>
+  <td>Formats the value as a number using the <a href="CLocalizedFormatter.html#locale">locale</a>s number formatter.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr class="inherited" id="formatRaw">
+  <td><a href="CFormatter.html#formatRaw-detail">formatRaw()</a></td>
+  <td>Formats the value as is without any formatting.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="formatSize">
+  <td><a href="CFormatter.html#formatSize-detail">formatSize()</a></td>
+  <td>Formats the value in bytes as a size in human readable form.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="formatText">
+  <td><a href="CFormatter.html#formatText-detail">formatText()</a></td>
+  <td>Formats the value as a HTML-encoded plain text.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr id="formatTime">
+  <td><a href="CLocalizedFormatter.html#formatTime-detail">formatTime()</a></td>
+  <td>Formats the value as a time using the <a href="CLocalizedFormatter.html#locale">locale</a>s date formatter.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr class="inherited" id="formatUrl">
+  <td><a href="CFormatter.html#formatUrl-detail">formatUrl()</a></td>
+  <td>Formats the value as a hyperlink.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="getEventHandlers">
+  <td><a href="CComponent.html#getEventHandlers-detail">getEventHandlers()</a></td>
+  <td>Returns the list of attached event handlers for an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="getHtmlPurifier">
+  <td><a href="CFormatter.html#getHtmlPurifier-detail">getHtmlPurifier()</a></td>
+  <td>Returns the HTML purifier instance</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+<tr class="inherited" id="getIsInitialized">
+  <td><a href="CApplicationComponent.html#getIsInitialized-detail">getIsInitialized()</a></td>
+  <td>Checks if this application component has been initialized.</td>
+  <td><a href="CApplicationComponent.html">CApplicationComponent</a></td>
+</tr>
+<tr id="getLocale">
+  <td><a href="CLocalizedFormatter.html#getLocale-detail">getLocale()</a></td>
+  <td>Returns $locale the locale currently used for formatting values</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+<tr class="inherited" id="hasEvent">
+  <td><a href="CComponent.html#hasEvent-detail">hasEvent()</a></td>
+  <td>Determines whether an event is defined.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasEventHandler">
+  <td><a href="CComponent.html#hasEventHandler-detail">hasEventHandler()</a></td>
+  <td>Checks whether the named event has attached handlers.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasProperty">
+  <td><a href="CComponent.html#hasProperty-detail">hasProperty()</a></td>
+  <td>Determines whether a property is defined.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="init">
+  <td><a href="CApplicationComponent.html#init-detail">init()</a></td>
+  <td>Initializes the application component.</td>
+  <td><a href="CApplicationComponent.html">CApplicationComponent</a></td>
+</tr>
+<tr class="inherited" id="raiseEvent">
+  <td><a href="CComponent.html#raiseEvent-detail">raiseEvent()</a></td>
+  <td>Raises an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="setLocale">
+  <td><a href="CLocalizedFormatter.html#setLocale-detail">setLocale()</a></td>
+  <td>Set the locale to use for formatting values.</td>
+  <td>CLocalizedFormatter</td>
+</tr>
+</table>
+</div>
+<div class="summary docMethod">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="normalizeDateValue">
+  <td><a href="CFormatter.html#normalizeDateValue-detail">normalizeDateValue()</a></td>
+  <td>Normalizes an expression as a timestamp.</td>
+  <td><a href="CFormatter.html">CFormatter</a></td>
+</tr>
+</table>
+</div>
+<a name="events"></a>
+
+<h2>Property Details</h2>
+<div class="detailHeader" id="dateFormat-detail">
+dateFormat<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public string <b>$dateFormat</b>;</div>
+
+<p>the width of the date pattern. It can be 'full', 'long', 'medium' and 'short'. Defaults to 'medium'.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CDateFormatter.html#formatDateTime">CDateFormatter::formatDateTime()</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="locale-detail">
+locale<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <a href="CLocale.html">CLocale</a> <a href="CLocalizedFormatter.html#getLocale"><b>getLocale</b></a>()<br/>public void <a href="CLocalizedFormatter.html#setLocale"><b>setLocale</b></a>(CLocale|string $locale)</div>
+
+<p>$locale the locale currently used for formatting values</p>
+
+
+<div class="detailHeader" id="timeFormat-detail">
+timeFormat<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public string <b>$timeFormat</b>;</div>
+
+<p>the width of the time pattern. It can be 'full', 'long', 'medium' and 'short'. Defaults to 'medium'.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CDateFormatter.html#formatDateTime">CDateFormatter::formatDateTime()</a></li>
+</ul>
+</div>
+
+<h2>Method Details</h2>
+
+<div class="detailHeader" id="formatBoolean-detail">
+formatBoolean()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public string <b>formatBoolean</b>(mixed $value)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">mixed</td>
+  <td class="paramDescCol">the value to be formatted</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the formatted result</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L79">framework/utils/CLocalizedFormatter.php#79</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">formatBoolean</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$value&nbsp;</span><span style="color: #007700">?&nbsp;</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yii'</span><span style="color: #007700">,</span><span style="color: #DD0000">'Yes'</span><span style="color: #007700">)&nbsp;:&nbsp;</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yii'</span><span style="color: #007700">,</span><span style="color: #DD0000">'No'</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Formats the value as a boolean.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CLocalizedFormatter.html#booleanFormat">booleanFormat</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="formatDate-detail">
+formatDate()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public string <b>formatDate</b>(mixed $value)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">mixed</td>
+  <td class="paramDescCol">the value to be formatted</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the formatted result</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L91">framework/utils/CLocalizedFormatter.php#91</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">formatDate</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getLocale</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">dateFormatter</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">formatDateTime</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">normalizeDateValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dateFormat</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Formats the value as a date using the <a href="CLocalizedFormatter.html#locale">locale</a>s date formatter.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CLocalizedFormatter.html#dateFormat">dateFormat</a></li>
+	<li><a href="CLocale.html#getDateFormatter">CLocale::getDateFormatter()</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="formatDatetime-detail">
+formatDatetime()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public string <b>formatDatetime</b>(mixed $value)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">mixed</td>
+  <td class="paramDescCol">the value to be formatted</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the formatted result</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L116">framework/utils/CLocalizedFormatter.php#116</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">formatDatetime</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getLocale</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">dateFormatter</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">formatDateTime</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">normalizeDateValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">dateFormat</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">timeFormat</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Formats the value as a date and time using the <a href="CLocalizedFormatter.html#locale">locale</a>s date formatter.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CLocalizedFormatter.html#dateFormat">dateFormat</a></li>
+	<li><a href="CLocalizedFormatter.html#timeFormat">timeFormat</a></li>
+	<li><a href="CLocale.html#getDateFormatter">CLocale::getDateFormatter()</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="formatNumber-detail">
+formatNumber()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public string <b>formatNumber</b>(mixed $value)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">mixed</td>
+  <td class="paramDescCol">the value to be formatted</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the formatted result</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L127">framework/utils/CLocalizedFormatter.php#127</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">formatNumber</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getLocale</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">numberFormatter</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">formatDecimal</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Formats the value as a number using the <a href="CLocalizedFormatter.html#locale">locale</a>s number formatter.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CLocale.html#getNumberFormatter">CLocale::getNumberFormatter()</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="formatTime-detail">
+formatTime()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public string <b>formatTime</b>(mixed $value)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">mixed</td>
+  <td class="paramDescCol">the value to be formatted</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">string</td>
+  <td class="paramDescCol">the formatted result</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L103">framework/utils/CLocalizedFormatter.php#103</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">formatTime</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getLocale</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">dateFormatter</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">formatDateTime</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">normalizeDateValue</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">),&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">timeFormat</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Formats the value as a time using the <a href="CLocalizedFormatter.html#locale">locale</a>s date formatter.</p>
+
+<div class="SeeAlso">
+<h4>See Also</h4>
+<ul>
+	<li><a href="CLocalizedFormatter.html#timeFormat">timeFormat</a></li>
+	<li><a href="CLocale.html#getDateFormatter">CLocale::getDateFormatter()</a></li>
+</ul>
+</div>
+
+<div class="detailHeader" id="getLocale-detail">
+getLocale()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CLocale.html">CLocale</a> <b>getLocale</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CLocale.html">CLocale</a></td>
+  <td class="paramDescCol">$locale the locale currently used for formatting values</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L65">framework/utils/CLocalizedFormatter.php#65</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getLocale</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_locale&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">)&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setLocale</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">app</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">locale</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_locale</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+
+<div class="detailHeader" id="setLocale-detail">
+setLocale()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>setLocale</b>(CLocale|string $locale)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$locale</td>
+  <td class="paramTypeCol">CLocale|string</td>
+  <td class="paramDescCol">an instance of CLocale or a locale ID</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> <a class="sourceLink" href="https://github.com/yiisoft/yii/blob/1.1.15/framework/utils/CLocalizedFormatter.php#L54">framework/utils/CLocalizedFormatter.php#54</a> (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">setLocale</span><span style="color: #007700">(</span><span style="color: #0000BB">$locale</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">is_string</span><span style="color: #007700">(</span><span style="color: #0000BB">$locale</span><span style="color: #007700">))<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$locale</span><span style="color: #007700">=</span><span style="color: #0000BB">CLocale</span><span style="color: #007700">::</span><span style="color: #0000BB">getInstance</span><span style="color: #007700">(</span><span style="color: #0000BB">$locale</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">sizeFormat</span><span style="color: #007700">[</span><span style="color: #DD0000">'decimalSeparator'</span><span style="color: #007700">]=</span><span style="color: #0000BB">$locale</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getNumberSymbol</span><span style="color: #007700">(</span><span style="color: #DD0000">'decimal'</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_locale</span><span style="color: #007700">=</span><span style="color: #0000BB">$locale</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Set the locale to use for formatting values.</p>
+
+
+</div><!-- end of content -->
+
+<div id="apiFooter">
+&copy; 2008-2013 by <a href="http://www.yiisoft.com">Yii Software LLC</a><br/>
+All Rights Reserved.<br/>
+</div><!-- end of footer -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+$("a.toggle").toggle(function(){
+	$(this).text($(this).text().replace(/Hide/,'Show'));
+	$(this).parents(".summary").find(".inherited").hide();
+},function(){
+	$(this).text($(this).text().replace(/Show/,'Hide'));
+	$(this).parents(".summary").find(".inherited").show();
+});
+$(".sourceCode a.show").toggle(function(){
+	$(this).text($(this).text().replace(/show/,'hide'));
+	$(this).parents(".sourceCode").find("div.code").show();
+},function(){
+	$(this).text($(this).text().replace(/hide/,'show'));
+	$(this).parents(".sourceCode").find("div.code").hide();
+});
+$("a.sourceLink").click(function(){
+	$(this).attr('target','_blank');
+});
+/*]]>*/
+</script>
+
+</div><!-- end of page -->
+</body>
+</html>
