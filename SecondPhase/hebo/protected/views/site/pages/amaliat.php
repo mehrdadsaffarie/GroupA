@@ -16,12 +16,12 @@ $this->breadcrumbs=array(
 th{
 background-color:; 
 font-family: "B Titr";
-font-size: 30px ;
+font-size: 24px ;
 }
 td{
 background-color:;
 font-family: "B Nazanin";
-font-size: 30px ;
+font-size: 20px ;
 }
 tr:nth-child(even)
 {
@@ -230,5 +230,8 @@ border-collapse: collapse;
 	
 
 </table>
+<p>
+	منبع: ویکی پدیا
+</p>
 </body>
 </html>
