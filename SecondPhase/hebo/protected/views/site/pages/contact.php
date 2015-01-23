@@ -45,14 +45,22 @@
               	
 			<script src="http://maps.googleapis.com/maps/api/js"></script>
 			<script>
+				var mycenter= new google.maps.LatLng(35.7403607,51.5126038);
 				function initialize()
 				{
 					var mapProp = {
-						center:new google.maps.LatLng(35.7403607,51.5126038),
+						center:mycenter,
 						zoom:10,
 						mapTypeId:google.maps.MapTypeId.ROADMAP
 				};
 				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				
+				
+				var marker= new google.maps.Marker({position: mycenter,title: 'Click to Zoom'});
+				marker.setMap(map);
+
+				google.maps.event.addListener(marker,'click',function(){ map.setZoom(14);
+											map.setCenter(marker.getPosition());});
 				}
 				google.maps.event.addDomListener(window, 'load', initialize);
 			</script>
