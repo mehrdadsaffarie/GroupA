@@ -18,7 +18,12 @@ Yii::app()->clientScript->registerCoreScript('jquery');
 <div class="slider-bootstrap" align="center"  ><!-- start slider -->
     <div class="slider-wrapper theme-default" align="center">
         <div id="slider-nivo" style="width: 300px" class="nivoSlider">
-            <img src="<?php echo $baseUrl;?>/img/bashohada/negar/1.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/1.jpg" alt="" title=" 	سيد محمود آثاري " />
+            	
+		<img src="<?php echo $baseUrl;?>/img/bashohada/negar/16.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/16.jpg" alt="" title=" 	حسین خرازی " />
+         	<img src="<?php echo $baseUrl;?>/img/bashohada/negar/17.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/17.jpg" alt="" title=" 	زین الدین " />
+          
+ 
+		<img src="<?php echo $baseUrl;?>/img/bashohada/negar/1.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/1.jpg" alt="" title=" 	سيد محمود آثاري " />
             <img src="<?php echo $baseUrl;?>/img/bashohada/negar/2.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/2.jpg" alt="" title="مصطفي احساني " />
             <img src="<?php echo $baseUrl;?>/img/bashohada/negar/3.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/3.jpg" alt="" title=" 	احمد آخوندي" />
             <img src="<?php echo $baseUrl;?>/img/bashohada/negar/4.jpg" data-thumb="<?php echo $baseUrl;?>/img/bashohada/negar/4.jpg" alt="" title="علي اسحاقي " />
