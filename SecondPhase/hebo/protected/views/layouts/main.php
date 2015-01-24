@@ -88,37 +88,21 @@
 							array('label'=>'Home 5 ', 'url'=>array('/site/page', 'view'=>'home5')),
 							array('label'=>'Home 6 ', 'url'=>array('/site/page', 'view'=>'home6')),
                         )),
-						array('label'=>'سبک ها <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"6 styles"),
+						array('label'=>'سبک ها <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"سبک"),
                         'items'=>array(
-                            array('label'=>'<span class="style" style="background-color:#0088CC;"></span> Style 1', 'url'=>"javascript:chooseStyle('none', 60)"),
-							array('label'=>'<span class="style" style="background-color:#e42e5d;"></span> Style 2', 'url'=>"javascript:chooseStyle('style2', 60)"),
-							array('label'=>'<span class="style" style="background-color:#c80681;"></span> Style 3', 'url'=>"javascript:chooseStyle('style3', 60)"),
-							array('label'=>'<span class="style" style="background-color:#51a351;"></span> Style 4', 'url'=>"javascript:chooseStyle('style4', 60)"),
-							array('label'=>'<span class="style" style="background-color:#b88006;"></span> Style 5', 'url'=>"javascript:chooseStyle('style5', 60)"),
-							array('label'=>'<span class="style" style="background-color:#f9630f;"></span> Style 6', 'url'=>"javascript:chooseStyle('style6', 60)"),
+                            array('label'=>'<span class="style" style="background-color:#0088CC;"></span> سبک 1', 'url'=>"javascript:chooseStyle('none', 60)"),
+							array('label'=>'<span class="style" style="background-color:#e42e5d;"></span> سبک 2', 'url'=>"javascript:chooseStyle('style2', 60)"),
+							array('label'=>'<span class="style" style="background-color:#c80681;"></span> سبک 3', 'url'=>"javascript:chooseStyle('style3', 60)"),
+							array('label'=>'<span class="style" style="background-color:#51a351;"></span> سبک 4', 'url'=>"javascript:chooseStyle('style4', 60)"),
+							array('label'=>'<span class="style" style="background-color:#b88006;"></span> سبک 5', 'url'=>"javascript:chooseStyle('style5', 60)"),
+							array('label'=>'<span class="style" style="background-color:#f9630f;"></span> سبک 6', 'url'=>"javascript:chooseStyle('style6', 60)"),
                         )),
 						
-						array('label'=>'ویژگی ها <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'columns'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"cool features"),
-                        'items'=>array(
-                            array('label'=>'Columns', 'url'=>array('/site/page', 'view'=>'columns')),
-							array('label'=>'Pricing tables', 'url'=>array('/site/page', 'view'=>'pricing-tables')),
-							array('label'=>'UI Elements', 'url'=>array('/site/page', 'view'=>'elements')),
-                        )),
 
-                        array('label'=>'درباره', 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>"what we are about"),),
-                        array('label'=>'Portfolio <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"some of our work"), 
-                        'items'=>array(
-                            array('label'=>'4 columns', 'url'=>array('/site/page', 'view'=>'portfolio-4-cols')),
-							array('label'=>'3 columns', 'url'=>array('/site/page', 'view'=>'portfolio-3-cols')),
-							array('label'=>'2 columns', 'url'=>array('/site/page', 'view'=>'portfolio-2-cols')),
-							array('label'=>'1 column', 'url'=>array('/site/page', 'view'=>'portfolio-1-col')),
-                        )),
-						array('label'=>'بلاگ <span class="caret"></span>', 'url'=>array('/site/page', 'view'=>'blog'),'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"our blog"),
-                        'items'=>array(
-                            array('label'=>'Blog - Large image', 'url'=>array('/site/page', 'view'=>'blog')),
-							array('label'=>'Blog - Small image', 'url'=>array('/site/page', 'view'=>'blog-small-picture')),
-							array('label'=>'Blog - Item', 'url'=>array('/site/page', 'view'=>'blog-item')),
-                        )),
+
+                        array('label'=>'کاربرگ ها', 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>"کاربرگ های نمایه سازی"),),
+
+
                         array('label'=>'ارتباط با ما', 'url'=>array('/site/page', 'view'=>'contact'),'linkOptions'=>array("data-description"=>"get hold of us"),),
                         array('label'=>'ثبت نام', 'url'=>array('/site/page', 'view'=>'register'),'linkOptions'=>array("data-description"=>"راحت و سریع"),),
                         array('label'=>'ورود', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"مخصوص اعضا")),
