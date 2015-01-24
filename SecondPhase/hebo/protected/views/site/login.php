@@ -34,9 +34,7 @@ $this->breadcrumbs=array(
 		<?php echo $form->labelEx($model,'رمز عبور'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
-        <p>
-        admin admin
-        </p>
+
 	</div>
     <?php echo $form->textField($model,'verifyCode'); ?>
     <?php $this->widget('CCaptcha'); ?>
