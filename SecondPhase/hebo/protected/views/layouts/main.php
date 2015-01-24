@@ -84,9 +84,6 @@
                             array('label'=>'صفحه اصلی ', 'url'=>array('/site/index')),
 							array('label'=>'با شهدا', 'url'=>array('/site/page', 'view'=>'bashohada.bashohada')),
 							array('label'=>'عملیات ها ', 'url'=>array('/site/page', 'view'=>'amaliat')),
-							array('label'=>'Home 4 ', 'url'=>array('/site/page', 'view'=>'home4')),
-							array('label'=>'Home 5 ', 'url'=>array('/site/page', 'view'=>'home5')),
-							array('label'=>'Home 6 ', 'url'=>array('/site/page', 'view'=>'home6')),
                         )),
 						array('label'=>'سبک ها <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"سبک"),
                         'items'=>array(
