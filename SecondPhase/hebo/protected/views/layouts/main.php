@@ -102,10 +102,16 @@
 
                         array('label'=>'کاربرگ ها', 'url'=>array('/site/page', 'view'=>'about'),'linkOptions'=>array("data-description"=>"کاربرگ های نمایه سازی"),),
 
-
-                        array('label'=>'ارتباط با ما', 'url'=>array('/site/page', 'view'=>'contact'),'linkOptions'=>array("data-description"=>"get hold of us"),),
+                        array('label'=>'اخبار', 'url'=>array('/post'),'linkOptions'=>array("data-description"=>"اخبار سایت"),),
+                        array('label'=>'ارتباط با ما', 'url'=>array('/site/page', 'view'=>'contact'),'linkOptions'=>array("data-description"=>"درباره ما"),),
                         array('label'=>'ثبت نام', 'url'=>array('/site/page', 'view'=>'register'),'linkOptions'=>array("data-description"=>"راحت و سریع"),),
                         array('label'=>'ورود', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"مخصوص اعضا")),
+                        array('label'=>' پست ها <span class="caret"></span>', 'url'=>'#', 'visible'=>!Yii::app()->user->isGuest,'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"پست"),
+                            'items'=>array(
+                                array('label'=>'ارسال پست', 'url'=>array('/post/create')),
+                                array('label'=>'مدیریت پست ها', 'url'=>array('/post/admin')),
+                                array('label'=>'تایید نظرات', 'url'=>array('/comment/index')),
+                            )),
                         array('label'=>'خروج ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest,'linkOptions'=>array("data-description"=>"خارج شدن اعضا")),
                     ),
                 )); 
