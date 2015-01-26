@@ -85,6 +85,7 @@
 							array('label'=>'با شهدا', 'url'=>array('/site/page', 'view'=>'bashohada.bashohada')),
                             array('label'=>'کتاب های شهدا', 'url'=>array('/site/page', 'view'=>'ketab')),
 							array('label'=>'عملیات ها ', 'url'=>array('/site/page', 'view'=>'amaliat')),
+                            array('label'=>'جانبازان', 'url'=>array('/site/page', 'view'=>'janbaz')),
                         )),
 						array('label'=>'سبک ها <span class="caret"></span>', 'url'=>'#','itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown","data-description"=>"سبک"),
                         'items'=>array(
