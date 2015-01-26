@@ -18968,3 +18968,43 @@ Stack trace:
 REQUEST_URI=/hebo/index.php/site/img/close.png
 HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=pictures
 ---
+2015/01/26 12:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/loadin...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=pictures
+---
+2015/01/26 12:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'سیستم توانایی یافتن عمل "img" را ندارد.' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('img')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('img')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/img/close....')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/hebo/index.php/site/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/site/page?view=pictures
+---
+2015/01/26 12:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'امکان پاسخ به درخواست "img/loading.gif" وجود ندارد' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/loading.gif')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/hebo/index.php/img/loading.gif
+HTTP_REFERER=http://localhost/hebo/index.php/post
+---
+2015/01/26 12:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'امکان پاسخ به درخواست "img/close.png" وجود ندارد' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/close.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\hebo\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/hebo/index.php/img/close.png
+HTTP_REFERER=http://localhost/hebo/index.php/post
+---
